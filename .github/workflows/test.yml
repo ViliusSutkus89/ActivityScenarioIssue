@@ -47,24 +47,24 @@ jobs:
           - arch: x86
             api-level: 16
             api-type-target: default
-#          - arch: x86
-#            api-level: 17
-#            api-type-target: default
-#          - arch: x86
-#            api-level: 18
-#            api-type-target: default
-#          - arch: x86
-#            api-level: 19
-#            api-type-target: default
-#          - arch: x86
-#            api-level: 20
-#            api-type-target: default
+          - arch: x86
+            api-level: 17
+            api-type-target: default
+          - arch: x86
+            api-level: 18
+            api-type-target: default
+          - arch: x86
+            api-level: 19
+            api-type-target: default
+          - arch: x86
+            api-level: 20
+            api-type-target: default
           - arch: x86
             api-level: 21
             api-type-target: default
-#          - arch: x86_64
-#            api-level: 21
-#            api-type-target: default
+          - arch: x86_64
+            api-level: 21
+            api-type-target: default
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-java@v3
