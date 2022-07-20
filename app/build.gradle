@@ -16,6 +16,8 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         multiDexEnabled true
+        // https://issuetracker.google.com/issues/78108767#comment12
+        multiDexKeepProguard file('multidex.pro')
     }
 
     buildTypes {
